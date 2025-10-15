@@ -1,0 +1,36 @@
+- title: "Assessing Human Rights Risks in AI: A Framework for Model Evaluation"
+  url: https://arxiv.org/abs/2510.05519
+  year: 2025
+  venue: Artificial Intelligence, Ethics, and Society (Forthcoming)
+  authors: Vyoma Raman, Camille Chabot, Betsy Popken
+  outtakes: 
+
+- title: "Disclosure and Evaluation as Fairness Interventions for General-Purpose AI"
+  url: https://arxiv.org/abs/2510.05292
+  year: 2025
+  venue: Artificial Intelligence, Ethics, and Society (Forthcoming)
+  authors: Vyoma Raman, Judy Hanwen Shen, Andy K. Zhang, Lindsey Gailmard, Rishi Bommasani, Daniel E. Ho, Angelina Wang
+  outtakes: 
+
+- title: "AI for Scaling Legal Reform: Mapping and Redacting Racial Covenants in Santa Clara County"
+  url: https://arxiv.org/abs/2503.03888
+  year: 2024
+  venue: Journal of Legal Analysis (Forthcoming)
+  authors: Faiz Surani, Mirac Suzgun, Vyoma Raman, Christopher D. Manning, Peter Henderson, Daniel E. Ho
+  website: https://reglab.github.io/racialcovenants/
+  outtakes: 
+
+- title: "Centering the Margins: Outlier-Based Identification of Harmed Populations in Toxicity Detection"
+  url: https://aclanthology.org/2023.emnlp-main.579/
+  year: 2023
+  venue: Empirical Methods in Natural Language Processing
+  authors: Vyoma Raman, Eve Fleisig, Dan Klein
+  outtakes: 
+
+- title: "Bias, Consistency, and Partisanship in U.S. Asylum Cases: A Machine Learning Analysis of Extraneous Factors in Immigration Court Decisions"
+  url: https://dl.acm.org/doi/10.1145/3551624.3555288
+  year: 2022
+  venue: Equity and Access in Algorithms, Mechanisms, and Optimization
+  authors: Vyoma Raman, Catherine Vera and CJ Manna
+  award: Best Paper
+  outtakes: 

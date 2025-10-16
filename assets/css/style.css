@@ -3,8 +3,8 @@
 /* win the specificity fight */
 html, body { font-family: var(--font-sans) !important; }
 
-/* ensure elements inherit instead of setting their own */
-h1, h2, h3, h4, p, li, a, small, em, strong, nav, footer, header, main {
+/* remove em,strong from this rule */
+h1, h2, h3, h4, p, li, a, small, nav, footer, header, main {
   font: inherit;
 }
 

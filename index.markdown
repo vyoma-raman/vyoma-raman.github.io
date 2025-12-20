@@ -19,7 +19,7 @@ layout: home
   </p>
 
   <p>
-    I’m a PhD student in Information Science at <strong>Cornell Tech</strong> (NYC),
+    I’m a PhD student in <strong>Information Science at Cornell Tech</strong> (NYC),
     advised by the brilliant and kind
     <a href="https://angelina-wang.github.io/">Angelina Wang</a>.
   </p>
@@ -28,11 +28,11 @@ layout: home
 <section id="about-pro" markdown="1">
 ## About (Professional)
 
-I study natural language processing with the goal of promoting rights and preventing injustice<!-- (skip to my publications) -->. Lately, I’ve been thinking about the ways in which language model alignment approaches unwittingly reify power structures—and how to modify those approaches to unravel them. I’m very grateful to be a NSF Graduate Research Fellow and a Cornell Graduate School Dean’s Scholar.
+I study natural language processing with the goal of promoting rights and preventing injustice, and I’m very grateful to be a NSF Graduate Research Fellow and a Cornell Graduate School Dean’s Scholar. Lately, I’ve been thinking about the ways that language model alignment approaches unwittingly reify power structures—and how to modify those approaches to unravel them instead.
 
-I recently completed my master’s degree in computer science at **Stanford University**. During that time, I benefited immensely from the advising of [Diyi Yang](https://cs.stanford.edu/~diyiy/), [Dan Ho](https://law.stanford.edu/daniel-e-ho/), [Dan Jurafsky](https://web.stanford.edu/~jurafsky/), and [Alfredo Artiles](https://ed.stanford.edu/faculty/artiles). Prior to that, I earned bachelor’s degrees in computer science and interdisciplinary studies at **UC Berkeley**, where I was supported by a Google Lime Scholarship and was indebted to [Dan Klein](https://www2.eecs.berkeley.edu/Faculty/Homepages/klein.html), [Shreeharsh Kelkar](https://shreeharshkelkar.net/), [Rediet Abebe](https://www.redietabebe.com/), and [Alexa Koenig](https://www.law.berkeley.edu/our-faculty/faculty-profiles/alexa-koenig/) for their valuable advising.
+I recently completed my master’s degree in **computer science at Stanford University**. During that time, I was fortunate to be generously advised by [Diyi Yang](https://cs.stanford.edu/~diyiy/), [Dan Ho](https://law.stanford.edu/daniel-e-ho/), [Dan Jurafsky](https://web.stanford.edu/~jurafsky/), and [Alfredo Artiles](https://ed.stanford.edu/faculty/artiles) and partially supported by Stanford's [Institute for Human-Centered AI](https://hai.stanford.edu/). Prior to that, I earned bachelor’s degrees in **computer science and interdisciplinary studies at UC Berkeley**, where I was supported by a Google Lime Scholarship and the invaluable mentorship of [Dan Klein](https://www2.eecs.berkeley.edu/Faculty/Homepages/klein.html), [Shreeharsh Kelkar](https://shreeharshkelkar.net/), [Rediet Abebe](https://www.redietabebe.com/), and [Alexa Koenig](https://www.law.berkeley.edu/our-faculty/faculty-profiles/alexa-koenig/).
 
-I am affiliated with UC Berkeley's Human Rights Center, where I research the human rights impacts of language models under the guidance of [Betsy Popken](https://humanrights.berkeley.edu/people/betsy-popken/). I have previously interned at Microsoft working on responsible AI and 81cents (acquired by Rora) working toward closing the wage gap.
+I am affiliated with UC Berkeley's Human Rights Center, where I research the human rights impacts of language models under the guidance of [Betsy Popken](https://humanrights.berkeley.edu/people/betsy-popken/). I have previously interned at Microsoft working on responsible AI and at 81cents (acquired by Rora) working toward closing the wage gap.
 </section>
 
 <section id="about-fun" markdown="1">
@@ -42,7 +42,7 @@ I moonlight as a [satire](https://thefreepeach.com/author/vyomaraman/) [writer](
 
 <section id="disability" markdown="1">
 ## Disability Culture
-My work beyond research is guided by the belief that strong disability self-identity enables collective advocacy and helps sustain disability rights within a healthy democracy. I have remained engaged in disability spaces at Cornell. Previously, I was a graduate student coordinator for Stanford's [Disability Community (DisCo) Space](https://icil.stanford.edu/icil-programs/disability-community-disco-space), where my efforts to engage Stanford students with disability culture both locally and globally were honored with a Stanford Community Impact Award and the [James W. Lyons Award for Service](https://deanofstudents.stanford.edu/lyons/2025-james-w-lyons-award-service-awardees).
+My work beyond research is guided by the belief that strong disability self-identity enables collective advocacy and helps sustain disability justice within a healthy democracy. Previously, I was a graduate student coordinator for Stanford's [Disability Community (DisCo) Space](https://icil.stanford.edu/icil-programs/disability-community-disco-space), where my efforts to engage Stanford students with disability culture both locally and globally were honored with a Stanford Community Impact Award and the [James W. Lyons Award for Service](https://deanofstudents.stanford.edu/lyons/2025-james-w-lyons-award-service-awardees). I have since remained engaged in disability spaces at Cornell.
 
 I have also attempted to be an active creator of disability culture. My opinion column "Along for the Ride" in the Daily Californian was honored by the California College Media Association and the California News Publishers Association. I’ve also written reviews and satire highlighting disability issues in everyday situations.
 </section>

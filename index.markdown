@@ -54,7 +54,7 @@ I have also attempted to be an active creator of disability culture. My opinion 
 <ul class="pubs">
 {% for p in site.data.publications %}
   <li>
-    <strong><a href="{{ p.url }}">{{ p.title }}</a><strong>.
+    <strong><a href="{{ p.url }}">{{ p.title }}</a></strong>.
     {{ p.authors | replace: "Vyoma Raman", "<strong>Vyoma Raman</strong>" }}.
     {% if p.venue %}<em>{{ p.venue }}</em>, {% endif %}{{ p.year }}.
     {% if p.one_pager %}

@@ -1,14 +1,21 @@
+- title: "Attention to Non-Adopters"
+  url: https://arxiv.org/abs/2510.15951
+  year: 2025
+  authors: Kaitlyn Zhou, Kristina Gligorić, Myra Cheng, Michelle S. Lam, Vyoma Raman, Boluwatife Aminu, Caeley Woo, Michael Brockman, Hannah Cha, Dan Jurafsky
+  outtakes: 
+
 - title: "Assessing Human Rights Risks in AI: A Framework for Model Evaluation"
   url: https://arxiv.org/abs/2510.05519
   year: 2025
-  venue: Artificial Intelligence, Ethics, and Society (Forthcoming)
+  venue: Artificial Intelligence, Ethics, and Society
   authors: Vyoma Raman, Camille Chabot, Betsy Popken
   outtakes: 
 
 - title: "Disclosure and Evaluation as Fairness Interventions for General-Purpose AI"
   url: https://arxiv.org/abs/2510.05292
   year: 2025
-  venue: Artificial Intelligence, Ethics, and Society (Forthcoming)
+  venue: Artificial Intelligence, Ethics, and Society
+  one_pager: /assets/one_pagers/disclosure_evaluation.pdf
   authors: Vyoma Raman, Judy Hanwen Shen, Andy K. Zhang, Lindsey Gailmard, Rishi Bommasani, Daniel E. Ho, Angelina Wang
   outtakes: 
 

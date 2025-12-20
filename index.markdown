@@ -2,19 +2,35 @@
 layout: home
 ---
 
-<section class="intro" markdown="1">
-Hi, I’m Vyoma!
+<section class="intro">
+  <p>Hi, I’m Vyoma!</p>
 
-![Vyoma at the Asian Art Museum in San Francisco](/assets/img/headshot.jpg)
+  <p class="headshot-line">
+    <img
+      src="/assets/img/headshot.jpg"
+      alt="Vyoma at the Asian Art Museum in San Francisco"
+      class="headshot"
+    />
+    <span
+      class="typing"
+      data-period="2000"
+      data-type='["human rights nerd","NLP researcher","disability justice advocate","PhD student"]'
+    ></span>
+  </p>
 
-I’m a PhD student in Information Science at Cornell Tech (NYC), advised by the brilliant and kind [Angelina Wang](https://angelina-wang.github.io/).
+  <p>
+    I’m a PhD student in Information Science at <strong>Cornell Tech</strong> (NYC),
+    advised by the brilliant and kind
+    <a href="https://angelina-wang.github.io/">Angelina Wang</a>.
+  </p>
 </section>
 
 <section id="about-pro" markdown="1">
 ## About (Professional)
+
 I study natural language processing with the goal of promoting rights and preventing injustice<!-- (skip to my publications) -->. Lately, I’ve been thinking about the ways in which language model alignment techniques unwittingly reify power structures—and how to unravel them. I’m very grateful to be a NSF Graduate Research Fellow and a Cornell Graduate School Dean’s Scholar.
 
-I recently completed my master’s degree in computer science at Stanford University. During that time, I benefited immensely from the advising of [Diyi Yang](https://cs.stanford.edu/~diyiy/), [Dan Ho](https://law.stanford.edu/daniel-e-ho/), [Dan Jurafsky](https://web.stanford.edu/~jurafsky/), and [Alfredo Artiles](https://ed.stanford.edu/faculty/artiles). Prior to that, I earned bachelor’s degrees in computer science and interdisciplinary studies at UC Berkeley, where I was supported by a [Google Lime Scholarship]() and was indebted to [Dan Klein](https://www2.eecs.berkeley.edu/Faculty/Homepages/klein.html), [Shreeharsh Kelkar](https://shreeharshkelkar.net/), [Rediet Abebe](https://www.redietabebe.com/), and [Alexa Koenig](https://www.law.berkeley.edu/our-faculty/faculty-profiles/alexa-koenig/) for their valuable advising.
+I recently completed my master’s degree in computer science at **Stanford University**. During that time, I benefited immensely from the advising of [Diyi Yang](https://cs.stanford.edu/~diyiy/), [Dan Ho](https://law.stanford.edu/daniel-e-ho/), [Dan Jurafsky](https://web.stanford.edu/~jurafsky/), and [Alfredo Artiles](https://ed.stanford.edu/faculty/artiles). Prior to that, I earned bachelor’s degrees in computer science and interdisciplinary studies at **UC Berkeley**, where I was supported by a Google Lime Scholarship and was indebted to [Dan Klein](https://www2.eecs.berkeley.edu/Faculty/Homepages/klein.html), [Shreeharsh Kelkar](https://shreeharshkelkar.net/), [Rediet Abebe](https://www.redietabebe.com/), and [Alexa Koenig](https://www.law.berkeley.edu/our-faculty/faculty-profiles/alexa-koenig/) for their valuable advising.
 
 I am affiliated with UC Berkeley's Human Rights Center, where I research the human rights impacts of language models under the guidance of [Betsy Popken](https://humanrights.berkeley.edu/people/betsy-popken/). I have previously interned at Microsoft working on responsible AI and 81cents (acquired by Rora) working toward closing the wage gap.
 </section>
@@ -38,7 +54,12 @@ I have also attempted to be an active creator of disability culture. My opinion 
 <ul class="pubs">
 {% for p in site.data.publications %}
   <li>
-    <a href="{{ p.url }}">{{ p.title }}</a>. {{ p.authors }}. <em>{{ p.venue }}</em>, {{ p.year }}.
+    <strong><a href="{{ p.url }}">{{ p.title }}</a><strong>.
+    {{ p.authors | replace: "Vyoma Raman", "<strong>Vyoma Raman</strong>" }}.
+    {% if p.venue %}<em>{{ p.venue }}</em>, {% endif %}{{ p.year }}.
+    {% if p.one_pager %}
+      <a href="{{ p.one_pager }}">One-Page Summary</a>.
+    {% endif %}
     {% if p.website %}
       <a href="{{ p.website }}">Website</a>.
     {% endif %}

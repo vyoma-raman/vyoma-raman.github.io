@@ -73,9 +73,10 @@ main > section.intro {
 img { max-width: 100%; height: auto; }
 
 /* circular, sized headshot */
-main > section.intro img {
-  width: 160px;              /* pick a size you like */
-  height: 160px;
+main > section.intro img.headshot {
+  width: clamp(200px, 18vw, 320px); /* min, fluid, max */
+  aspect-ratio: 1 / 1;             /* keeps it square without hardcoding height */
+  height: auto;                    /* let aspect-ratio handle it */
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -95,3 +96,19 @@ main > section.intro img {
 
 .pubs { list-style: none; padding-left: 0; margin: 0; }
 .pubs li { margin: 0.35rem 0; }
+
+.typing {
+  color: #8b0c69;
+  font-weight: 500;
+}
+
+a {
+  color: #006644;              /* normal */
+  text-decoration: underline;  /* or none, if you hate accessibility */
+  text-underline-offset: 0.15em;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration-thickness: 2px;
+}

@@ -6,11 +6,19 @@ layout: home
   <p>Hi, I’m Vyoma!</p>
 
   <p class="headshot-line">
-    <img
-      src="/assets/img/headshot.jpg"
-      alt="Vyoma at the Asian Art Museum in San Francisco"
-      class="headshot"
-    />
+    <span class="headshot-wrap" aria-label="Vyoma headshot">
+      <img
+        src="/assets/img/headshot.jpg"
+        alt="Vyoma at the Asian Art Museum in San Francisco"
+        class="headshot headshot--default"
+      />
+      <img
+        src="/assets/img/headshot-hover.jpeg"
+        alt="Vyoma in front of the Rathaus-Glockenspiel in Munich"
+        class="headshot headshot--hover"
+        aria-hidden="true"
+      />
+    </span>
     <span
       class="typing"
       data-period="2000"

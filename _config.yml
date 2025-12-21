@@ -19,13 +19,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Vyoma Raman
-email: vyoma@infosci.cornell.edu
 description: >- # this means to ignore newlines until "baseurl:"
   ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vyoma-raman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: VyomaRaman
-# github_username:  jekyll
+
+social:
+  email: "vyoma@infosci.cornell.edu"
+  x: "https://x.com/VyomaRaman"
+  scholar: "https://scholar.google.com/citations?user=bxev3dgAAAAJ&hl=en"
+  linkedin: "https://www.linkedin.com/in/vyoma-raman/"
+  bluesky: "https://bsky.app/profile/vyoma-raman.bsky.social"
 
 # Build settings
 # theme: minima

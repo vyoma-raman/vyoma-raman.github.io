@@ -60,25 +60,80 @@ I have also attempted to be an active creator of disability culture. My opinion 
 I wouldn't be who I am today without the mentorship of those further along in their academic journeys, who generously gave their time and energy to mentor me in official and unofficial capacities. In roughly chronological order, they include: Ceren Fitoz, Sabina Nong, Jean Li, Grace Lin, [Emma Lurie](https://emmalurie.github.io/), [Ezinne Nwankwo](https://sites.google.com/view/ezinnenwankwo?usp=sharing), [Eve Fleisig](https://www.efleisig.com/), [Caleb Ziems](https://calebziems.com/), [Will Held](https://williamheld.com/), [Camille Harris](https://camille2019.github.io/), [Lucy Li](https://lucy3.github.io/), [Haley Lepp](https://sites.google.com/view/hlepp/home), and [Kaitlyn Zhou](https://cs.stanford.edu/~katezhou/).
 </section>
 
-<section id="publications" markdown="1">
-## Publications
+<section id="publications">
+<h2>Publications</h2>
 
-<ul class="pubs">
-{% for p in site.data.publications %}
-  <li>
-    <strong><a href="{{ p.url }}">{{ p.title }}</a></strong>.
-    {{ p.authors | replace: "Vyoma Raman", "<strong>Vyoma Raman</strong>" }}.
-    {% if p.venue %}<em>{{ p.venue }}</em>, {% endif %}{{ p.year }}.
-    {% if p.one_pager %}
-      <a href="{{ p.one_pager }}">One-Page Summary</a>.
-    {% endif %}
-    {% if p.website %}
-      <a href="{{ p.website }}">Website</a>.
-    {% endif %}
-    {% if p.award %}
-      <strong>{{ p.award }}</strong>.
-    {% endif %}
-  </li>
-{% endfor %}
-</ul>
+<div class="pub-tabs" role="tablist" aria-label="Publication categories">
+  <a class="pub-tab is-active" id="pub-tab-academic" href="#publications" role="tab" aria-selected="true" aria-controls="pub-panel-academic" data-target="pub-panel-academic">Academic</a>
+  <a class="pub-tab" id="pub-tab-non-academic" href="#publications" role="tab" aria-selected="false" aria-controls="pub-panel-non-academic" data-target="pub-panel-non-academic">Non-Academic</a>
+</div>
+
+<div id="pub-panel-academic" class="pub-panel is-active" role="tabpanel" aria-labelledby="pub-tab-academic">
+  <ul class="pubs">
+  {% for p in site.data.publications %}
+    <li>
+      <strong>{% if p.url %}<a class="pub-title" href="{{ p.url }}">{{ p.title }}</a>{% else %}<span class="pub-title">{{ p.title }}</span>{% endif %}</strong>.
+      {{ p.authors | replace: "Vyoma Raman", "<strong>Vyoma Raman</strong>" }}.
+      {% if p.venue %}<em>{{ p.venue }}</em>{% if p.year %}, {% else %}.{% endif %}{% endif %}
+      {% if p.year %}{{ p.year }}.{% endif %}
+      {% if p.one_pager %}
+        <a href="{{ p.one_pager }}">One-Page Summary</a>.
+      {% endif %}
+      {% if p.website %}
+        <a href="{{ p.website }}">Website</a>.
+      {% endif %}
+      {% if p.award %}
+        <strong>{{ p.award }}</strong>.
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
+<div id="pub-panel-non-academic" class="pub-panel" role="tabpanel" aria-labelledby="pub-tab-non-academic" hidden>
+  <ul class="pubs">
+  {% for p in site.data.non_academic_publications %}
+    <li>
+      <strong>{% if p.url %}<a class="pub-title" href="{{ p.url }}">{{ p.title }}</a>{% else %}<span class="pub-title">{{ p.title }}</span>{% endif %}</strong>.
+      {{ p.authors | replace: "Vyoma Raman", "<strong>Vyoma Raman</strong>" }}.
+      {% if p.venue %}<em>{{ p.venue }}</em>{% if p.year %}, {% else %}.{% endif %}{% endif %}
+      {% if p.year %}{{ p.year }}.{% endif %}
+      {% if p.one_pager %}
+        <a href="{{ p.one_pager }}">One-Page Summary</a>.
+      {% endif %}
+      {% if p.website %}
+        <a href="{{ p.website }}">Website</a>.
+      {% endif %}
+      {% if p.award %}
+        <strong>{{ p.award }}</strong>.
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
+<script>
+  (function () {
+    const tabs = document.querySelectorAll("#publications .pub-tab");
+    const panels = document.querySelectorAll("#publications .pub-panel");
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", (event) => {
+        event.preventDefault();
+        tabs.forEach((t) => {
+          t.classList.remove("is-active");
+          t.setAttribute("aria-selected", "false");
+        });
+        panels.forEach((panel) => {
+          panel.classList.remove("is-active");
+          panel.hidden = true;
+        });
+        const panel = document.getElementById(tab.dataset.target);
+        tab.classList.add("is-active");
+        tab.setAttribute("aria-selected", "true");
+        panel.classList.add("is-active");
+        panel.hidden = false;
+      });
+    });
+  })();
+</script>
 </section>

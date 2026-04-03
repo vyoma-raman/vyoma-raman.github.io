@@ -96,6 +96,44 @@ main > section.intro img.headshot {
 
 .pubs { list-style: none; padding-left: 0; margin: 0; }
 .pubs li { margin: 0.35rem 0; }
+.pub-title { color: #006644; }
+
+.pub-tabs {
+  display: inline-flex;
+  gap: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.pub-tab {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #006644;
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  cursor: pointer;
+}
+
+.pub-tab:hover,
+.pub-tab:focus-visible {
+  opacity: 0.8;
+}
+
+.pub-tab.is-active {
+  background: #006644;
+  color: #fff;
+}
+
+.pub-panel[hidden] {
+  display: none;
+}
+
+.pub-panel {
+  margin-top: 0;
+  padding-top: 0;
+}
 
 .typing {
   color: #8b0c69;
@@ -188,4 +226,3 @@ header nav a:focus-visible{
   height: 20px;
   fill: currentColor;
 }
-

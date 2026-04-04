@@ -1,7 +1,30 @@
----
----
+# inspired by: https://meera-desai.com/robots.txt
 
-User-agent: *
-Allow: /
+User-agent: AdsBot-Google
+Disallow: /
 
-Sitemap: {{ "/sitemap.xml" | absolute_url }}
+# block CommonCrawl
+User-agent: CCBot
+Disallow: /
+
+# block OpenAI
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+
+# block GoogleAI
+User-agent: Google-Extended
+Disallow: /
+
+# block perplexity
+User-agent: PerplexityBot
+Disallow: /
+
+# block anthropic
+User-agent: anthropic-ai
+Disallow: /
+‍User-agent: Claude-Web
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /

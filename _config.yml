@@ -23,6 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vyoma-raman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+google_site_verification: "u5Si4_ICalmUct0zChLTul5BvIDX4ohm-5OJ-UppR1U"
 
 social:
   email: "vyoma@infosci.cornell.edu"
@@ -35,6 +36,7 @@ social:
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 markdown: kramdown
 kramdown:
   input: GFM

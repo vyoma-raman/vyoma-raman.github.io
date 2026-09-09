@@ -64,8 +64,8 @@ I wouldn't be who I am today without the mentorship of those further along in th
 <h2>Publications</h2>
 
 <div class="pub-tabs" role="tablist" aria-label="Publication categories">
-  <a class="pub-tab is-active" id="pub-tab-academic" href="#publications" role="tab" aria-selected="true" aria-controls="pub-panel-academic" data-target="pub-panel-academic">Academic</a>
-  <a class="pub-tab" id="pub-tab-non-academic" href="#publications" role="tab" aria-selected="false" aria-controls="pub-panel-non-academic" data-target="pub-panel-non-academic">Non-Academic</a>
+  <a class="pub-tab is-active" id="pub-tab-academic" href="#publications" role="tab" aria-selected="true" aria-controls="pub-panel-academic" data-target="pub-panel-academic">Academic Research</a>
+  <a class="pub-tab" id="pub-tab-non-academic" href="#publications" role="tab" aria-selected="false" aria-controls="pub-panel-non-academic" data-target="pub-panel-non-academic">Public Scholarship</a>
 </div>
 
 <div id="pub-panel-academic" class="pub-panel is-active" role="tabpanel" aria-labelledby="pub-tab-academic">

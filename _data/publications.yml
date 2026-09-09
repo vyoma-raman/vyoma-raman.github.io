@@ -1,8 +1,23 @@
+- title: "Abstracted Away: Resisting Alienation and Ungrounded Abstraction in AI Research Communities"
+  url: https://arxiv.org/abs/2608.08408
+  year: 2026
+  venue: Artificial Intelligence, Ethics, and Society
+  authors: Vyoma Raman*, Isabel O. Gallegos*, Neha Srivathsa*
+  outtakes: 
+
 - title: "Attention to Non-Adopters"
   url: https://arxiv.org/abs/2510.15951
   year: 2026
   venue: Association for Computational Linguistics (Findings)
   authors: Kaitlyn Zhou, Kristina Gligorić, Myra Cheng, Michelle S. Lam, Vyoma Raman, Boluwatife Aminu, Caeley Woo, Michael Brockman, Hannah Cha, Dan Jurafsky
+  outtakes: 
+
+- title: "AI for Scaling Legal Reform: Mapping and Redacting Racial Covenants in Santa Clara County"
+  url: https://arxiv.org/abs/2503.03888
+  year: 2026
+  venue: Journal of Legal Analysis
+  authors: Faiz Surani*, Mirac Suzgun*, Vyoma Raman, Christopher D. Manning, Peter Henderson, Daniel E. Ho
+  website: https://reglab.github.io/racialcovenants/
   outtakes: 
 
 - title: "Assessing Human Rights Risks in AI: A Framework for Model Evaluation"
@@ -18,14 +33,6 @@
   venue: Artificial Intelligence, Ethics, and Society
   one_pager: /assets/one_pagers/disclosure_evaluation.pdf
   authors: Vyoma Raman, Judy Hanwen Shen, Andy K. Zhang, Lindsey Gailmard, Rishi Bommasani, Daniel E. Ho*, Angelina Wang*
-  outtakes: 
-
-- title: "AI for Scaling Legal Reform: Mapping and Redacting Racial Covenants in Santa Clara County"
-  url: https://arxiv.org/abs/2503.03888
-  year: 2024
-  venue: Journal of Legal Analysis (Forthcoming)
-  authors: Faiz Surani*, Mirac Suzgun*, Vyoma Raman, Christopher D. Manning, Peter Henderson, Daniel E. Ho
-  website: https://reglab.github.io/racialcovenants/
   outtakes: 
 
 - title: "Centering the Margins: Outlier-Based Identification of Harmed Populations in Toxicity Detection"

@@ -57,7 +57,7 @@ I have also attempted to be an active creator of disability culture. My opinion 
 
 <section id="mentors" class="collapsible-section" markdown="1">
 ## Mentors
-I wouldn't be who I am today without the mentorship of those further along in their academic journeys, who generously gave their time and energy to mentor me in official and unofficial capacities. In roughly chronological order, they include: Ceren Fitoz, Sabina Nong, Jean Li, Grace Lin, [Emma Lurie](https://emmalurie.github.io/), [Ezinne Nwankwo](https://sites.google.com/view/ezinnenwankwo?usp=sharing), [Eve Fleisig](https://www.efleisig.com/), [Caleb Ziems](https://calebziems.com/), [Will Held](https://williamheld.com/), [Camille Harris](https://camille2019.github.io/), [Lucy Li](https://lucy3.github.io/), [Haley Lepp](https://sites.google.com/view/hlepp/home), and [Kaitlyn Zhou](https://cs.stanford.edu/~katezhou/).
+I wouldn't be who I am today without the mentorship of those further along in their academic journeys, who generously gave their time and energy to mentor me in official and unofficial capacities. In roughly chronological order, they include: Ceren Fitoz, Sabina Nong, Jean Li, Grace Lin, [Emma Lurie](https://emmalurie.github.io/), [Ezinne Nwankwo](https://sites.google.com/view/ezinnenwankwo?usp=sharing), [Eve Fleisig](https://www.efleisig.com/), [Caleb Ziems](https://calebziems.com/), [Will Held](https://williamheld.com/), [Camille Harris](https://www.usfca.edu/faculty/camille-harris), [Lucy Li](https://lucy3.github.io/), [Haley Lepp](https://sites.google.com/view/hlepp/home), and [Kaitlyn Zhou](https://katezhou.github.io/).
 </section>
 
 <section id="publications" class="collapsible-section">

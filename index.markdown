@@ -69,7 +69,7 @@ I wouldn't be who I am today without the mentorship of those further along in th
 </div>
 
 <div id="pub-panel-academic" class="pub-panel is-active" role="tabpanel" aria-labelledby="pub-tab-academic">
-  <ul class="pubs">
+  <ol class="pubs">
   {% for p in site.data.publications %}
     <li>
       <strong>{% if p.url %}<a class="pub-title" href="{{ p.url }}">{{ p.title }}</a>{% else %}<span class="pub-title">{{ p.title }}</span>{% endif %}</strong>.
@@ -87,11 +87,11 @@ I wouldn't be who I am today without the mentorship of those further along in th
       {% endif %}
     </li>
   {% endfor %}
-  </ul>
+  </ol>
 </div>
 
 <div id="pub-panel-non-academic" class="pub-panel" role="tabpanel" aria-labelledby="pub-tab-non-academic" hidden>
-  <ul class="pubs">
+  <ol class="pubs">
   {% for p in site.data.non_academic_publications %}
     <li>
       <strong>{% if p.url %}<a class="pub-title" href="{{ p.url }}">{{ p.title }}</a>{% else %}<span class="pub-title">{{ p.title }}</span>{% endif %}</strong>.
@@ -109,7 +109,7 @@ I wouldn't be who I am today without the mentorship of those further along in th
       {% endif %}
     </li>
   {% endfor %}
-  </ul>
+  </ol>
 </div>
 
 <script>

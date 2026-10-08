@@ -45,7 +45,7 @@ I am affiliated with UC Berkeley's Human Rights Center, where I research the hum
 
 <section id="about-fun" class="collapsible-section" markdown="1">
 ## About (Fun)
-I moonlight as a [satire](https://thefreepeach.com/author/vyomaraman/) [writer](https://thesqueakywheel.org/author/vyomaraman/) and [columnist](https://www.dailycal.org/archives/constructing-a-narrative-with-supporting-columns/article_316cc3fd-e95e-5a39-be31-de0a7d733db4.html) and am deeply passionate about disability justice. In my spare time, I read, watch, and orchestrate (aka host dinner parties for) murder mysteries. I also enjoy reading [absurdist satire](https://www.goodreads.com/book/show/56269278-the-trees) and [urban fantasy](https://www.goodreads.com/book/show/42074525-the-city-we-became), and I’m on a quest to find the best hot chocolate in New York City (my picks for [Berkeley](https://casadechocolates.com/) and [Palo Alto](https://www.coupacafe.com/)).
+I moonlight as a [satire](https://thefreepeach.com/author/vyomaraman/) [writer](https://thesqueakywheel.org/author/vyomaraman/) and [columnist](https://www.dailycal.org/archives/rain-rain-go-away/article_f1ba57e0-8933-5c40-8107-1ed403857091.html) and am deeply passionate about disability justice. In my spare time, I read, watch, and orchestrate (aka host dinner parties for) murder mysteries. I also enjoy reading [absurdist satire](https://www.goodreads.com/book/show/56269278-the-trees) and [urban fantasy](https://www.goodreads.com/book/show/42074525-the-city-we-became), and I’m on a quest to find the best hot chocolate in New York City (my picks for [Berkeley](https://casadechocolates.com/) and [Palo Alto](https://www.coupacafe.com/)).
 </section>
 
 <section id="disability" class="collapsible-section" markdown="1">

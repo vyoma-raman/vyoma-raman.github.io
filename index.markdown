@@ -22,7 +22,7 @@ layout: home
     <span
       class="typing"
       data-period="2000"
-      data-type='["researcher", "philomath","bookworm","interdisciplinarian"]'
+      data-type='["critical technologist", "philomath","bookworm","interdisciplinarian"]'
     ></span>
   </p>
 
@@ -36,7 +36,7 @@ layout: home
 <section id="about-pro" class="collapsible-section" markdown="1">
 ## About (Professional)
 
-I study natural language processing with the goal of promoting rights and preventing injustice, and I’m very grateful to be a NSF Graduate Research Fellow and a Cornell Graduate School Dean’s Scholar. Lately, I’ve been thinking about the ways that language model alignment approaches unwittingly reify power structures—and how to modify those approaches to unravel them instead.
+I study natural language processing with the goal of making injustice in AI systems contestable. I’m very grateful to be an NSF Graduate Research Fellow, a Cornell [Graduate School Dean’s Scholar](https://gradschool.cornell.edu/inclusion/signature-initiatives/graduate-school-deans-scholars/), and a [Digital Life Initiative](https://dli.tech.cornell.edu/) Doctoral Fellow. Recently, I’ve been thinking about how technical design decisions in language modeling can unwittingly reify power structures — and how we can intervene to challenge them instead.
 
 I recently completed my master’s degree in **computer science at Stanford University**. During that time, I was fortunate to be generously advised by [Diyi Yang](https://cs.stanford.edu/~diyiy/), [Dan Ho](https://law.stanford.edu/daniel-e-ho/), [Dan Jurafsky](https://web.stanford.edu/~jurafsky/), and [Alfredo Artiles](https://ed.stanford.edu/faculty/artiles) and partially supported by Stanford's [Institute for Human-Centered AI](https://hai.stanford.edu/). Prior to that, I earned bachelor’s degrees in **computer science and interdisciplinary studies at UC Berkeley**, where I was supported by a Google Lime Scholarship and the invaluable mentorship of [Dan Klein](https://www2.eecs.berkeley.edu/Faculty/Homepages/klein.html), [Shreeharsh Kelkar](https://shreeharshkelkar.net/), [Rediet Abebe](https://www.redietabebe.com/), and [Alexa Koenig](https://www.law.berkeley.edu/our-faculty/faculty-profiles/alexa-koenig/).
 
